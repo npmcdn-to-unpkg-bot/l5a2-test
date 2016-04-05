@@ -1,12 +1,5 @@
 ## NatureDev.com
 
-Info linkovi za rad:
-
-* https://github.com/mschwarzmueller/angular-2-beta-boilerplate
-* https://github.com/uno-de-piera/angular-2-laravel-5
-* https://github.com/andbet39/LaravelAngular2Screencast
-* https://github.com/jadjoubran/laravel5-angular-material-starter
-
 
     - Install composer
 
@@ -19,3 +12,7 @@ Info linkovi za rad:
     - gulp bower --force-latest
 
     - gulp
+    
+     - Open file node_modules\elixir-typescript\index.js and comment out this line ".pipe($.concat(paths.output.name))" .
+    So the generated files won't be combine in to one single files.
+    The two js files will be generated to "public/js" as your configuration.
