@@ -22,11 +22,11 @@ var paths = {
 
 elixir(function (mix) {
 
-    mix.copy('node_modules/angular2', 'public/js/angular2');
-    mix.copy('node_modules/rxjs', 'public/js/rxjs');
-    mix.copy('node_modules/systemjs', 'public/js/systemjs');
-    mix.copy('node_modules/es6-promise', 'public/js/es6-promise');
-    mix.copy('node_modules/es6-shim', 'public/js/es6-shim');
+    mix.copy('node_modules/angular2', 'public/angular2');
+    mix.copy('node_modules/rxjs', 'public/rxjs');
+    mix.copy('node_modules/systemjs', 'public/systemjs');
+    mix.copy('node_modules/es6-promise', 'public/es6-promise');
+    mix.copy('node_modules/es6-shim', 'public/es6-shim');
 
     mix.copy('resources/assets/vendors/jquery-ui/themes/base/images', 'public/images');
 
