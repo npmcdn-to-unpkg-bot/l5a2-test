@@ -31,7 +31,7 @@
             }
         });
 
-        System.import('js/app')
+        System.import('js/boot')
                 .then(null, console.error.bind(console));
     </script>
 </head>
